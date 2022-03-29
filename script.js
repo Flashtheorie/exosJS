@@ -25,6 +25,12 @@ function whatType(str){
 // whatType(3)
 
 // Exercice 3 : 
-// Write a function that a string (a) as argument
-// Create an object that has a property with key 'key' and a value of a
-// Return the object
+// Write a function that takes two numbers (a and b) as argument
+// Return b percent of a
+
+function percent(a,b){
+    return (b * a) / 100;
+}
+
+// Décommenter si utilisation 
+//percent(66,457)
